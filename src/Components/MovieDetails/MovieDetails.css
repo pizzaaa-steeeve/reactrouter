@@ -1,0 +1,72 @@
+.md-page{
+    height: 91.5%;
+}
+
+.Details{
+
+    position: relative;
+    width: 90%;
+    height: 85vh;
+    display: flex;
+    margin: 150px auto;
+
+
+
+}
+.img-details{
+    width: 18vw;
+    border-radius: 10px;
+
+}
+.fram{
+    border: none;
+    width: 600px;
+    height: 350px;
+}
+.left{
+    width: 50%;
+}
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+height: 50%;
+}
+.titre-details{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+.actor-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+button{
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+}
+
+button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+

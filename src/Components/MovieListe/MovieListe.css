@@ -1,0 +1,57 @@
+*{box-sizing: border-box}
+body{box-sizing: border-box}
+
+.Movie-div{
+    max-width: 1500px;
+    margin: 150px auto;
+    --auto-grid-min-size: 16rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px);
+    grid-gap: 1rem;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+
+
+.Movie-card {
+    border-radius: 20px;
+    height: 400px;
+    width: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    cursor: pointer;
+}
+
+.Movie-card:hover{
+    box-shadow: rgba(19, 19, 56, 0.73) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
+}
+
+
+.up-list{
+    height: 80%;
+}
+.img-list{
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.down-list{
+
+    display: flex;
+    align-items: center;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.05rem;
+
+}
